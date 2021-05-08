@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2fcdb2f-34ec-4ae2-a84a-e8f9113c44b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleEmeny.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScanField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RandMovement.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1s1ngDMB31vNdf4zekrTB8CjXpa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2fcdb2f-34ec-4ae2-a84a-e8f9113c44b4" name="Default Changelist" comment="" />
+      <created>1620049075145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620049075145</updated>
+      <workItem from="1620049097238" duration="9361000" />
+      <workItem from="1620122833682" duration="3064000" />
+      <workItem from="1620331313462" duration="639000" />
+      <workItem from="1620471334459" duration="959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1620049558749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="236" key="RiderGenerateDialog/-1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1620049558749" />
+    <state x="511" y="118" key="SettingsEditor" timestamp="1620122933741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="118" key="SettingsEditor/-1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1620122933741" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1620123560650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/-1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1620123560650" />
+  </component>
+</project>
