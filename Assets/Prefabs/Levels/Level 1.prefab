@@ -51,7 +51,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4533271991357347748
 Transform:
   m_ObjectHideFlags: 0
@@ -748,6 +748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266406850236150078, guid: ad837daddf243f74dacaf5f3c97b8e5f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1266406850236150078, guid: ad837daddf243f74dacaf5f3c97b8e5f,
         type: 3}
