@@ -4,19 +4,110 @@
     <e p="C:\Users\medis\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\medis\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_StelsMasterExample.-1313687325.00" t="ExcludeRecursive" />
     <e p="D:\LabsUnity\StelsMasterExample" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CameraRotateAround.cs" t="Include" />
+        <e p="DoorController.cs" t="Include" />
+        <e p="EnemyCollisionDetection.cs" t="Include" />
+        <e p="GameEvents.cs" t="Include" />
+        <e p="Invector-3rdPersonController_LITE" t="Include">
+          <e p="3D Models" t="Include">
+            <e p="Others" t="Include">
+              <e p="HealthItem" t="Include">
+                <e p="vAnimateUV.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="README_Basic.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="Editor" t="Include">
+                <e p="vThirdPersonCameraEditor.cs" t="Include" />
+              </e>
+              <e p="vThirdPersonCamera.cs" t="Include" />
+            </e>
+            <e p="CharacterController" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="vEditorStartupPrefs.cs" t="Include" />
+                </e>
+                <e p="vCharacterEditor.cs" t="Include" />
+                <e p="vInvectorStartup.cs" t="Include" />
+                <e p="vInvectorWelcomeWindow.cs" t="Include" />
+                <e p="vThirdPersonInputEditor.cs" t="Include" />
+              </e>
+              <e p="vThirdPersonAnimator.cs" t="Include" />
+              <e p="vThirdPersonController.cs" t="Include" />
+              <e p="vThirdPersonInput.cs" t="Include" />
+              <e p="vThirdPersonMotor.cs" t="Include" />
+            </e>
+            <e p="CharacterCreator" t="Include">
+              <e p="Script" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vCreateBasicCharacterEditor.cs" t="Include" />
+                  <e p="vHelperEditor.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Generic" t="Include">
+              <e p="Utils" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vCommentEditor.cs" t="Include" />
+                </e>
+                <e p="vComment.cs" t="Include" />
+                <e p="vExtensions.cs" t="Include" />
+                <e p="vPickupItem.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="KeyOnScreen.cs" t="Include" />
+        <e p="PlayerAnimationHandler.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="PlayerDetection.cs" t="Include" />
+        <e p="PlayerInventory.cs" t="Include" />
+        <e p="PlayerMoveController.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="EnemyType.cs" t="Include" />
           <e p="RandMovement.cs" t="Include" />
           <e p="ScanField.cs" t="Include" />
           <e p="SimpleEnemy.cs" t="Include" />
         </e>
+        <e p="ThirdPersonCharacter.cs" t="Include" />
+        <e p="TriggerEvent.cs" t="Include" />
+      </e>
+      <e p="LocalPackages" t="Include">
+        <e p="com.unity.render-pipelines.high-definition-config" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="ShaderConfig.cs" t="Include" />
+            <e p="ShaderConfig.cs.hlsl" t="Include" />
+            <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="StelsMasterExample.sln" t="IncludeFlat" />
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
