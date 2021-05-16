@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8753499822886731996}
   - component: {fileID: 2062439263883161251}
   - component: {fileID: 2025733373781430269}
+  - component: {fileID: 7379819153705441561}
+  - component: {fileID: 5817545883399554177}
   m_Layer: 0
   m_Name: DoorDouble_Wall_SideB
   m_TagString: Untagged
@@ -110,3 +112,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008, y: 0.005, z: 0.044369813}
   m_Center: {x: 0.016, y: 0.001, z: 0.022124024}
+--- !u!114 &7379819153705441561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096074072818475273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e63b94a384b57e40be5cfdbc47cf25c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5817545883399554177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096074072818475273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28efd7e68af696144b617aeb11ac253b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightDoor: {fileID: 0}
+  leftDoor: {fileID: 0}

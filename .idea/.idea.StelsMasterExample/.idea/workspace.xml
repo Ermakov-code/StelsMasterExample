@@ -13,6 +13,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GameEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerDetection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AttackPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/KeyOnScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ParticleLogicForKeys.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/PlayerAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,15 +36,18 @@
         <option value="$PROJECT_DIR$/Assets/EnemyCollisionDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraRotateAround.cs" />
         <option value="$PROJECT_DIR$/Assets/Key.cs" />
-        <option value="$PROJECT_DIR$/Assets/TriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/ParticleLogicForKeys.cs" />
-        <option value="$PROJECT_DIR$/Assets/DoorController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/KeyOnScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerAnimationHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/DoorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/AttackPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/TriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +100,7 @@
       <workItem from="1620993183118" duration="6435000" />
       <workItem from="1621094913972" duration="628000" />
       <workItem from="1621097809779" duration="3775000" />
-      <workItem from="1621124110464" duration="2613000" />
+      <workItem from="1621124110464" duration="10457000" />
     </task>
     <servers />
   </component>

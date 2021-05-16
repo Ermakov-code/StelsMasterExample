@@ -8,10 +8,12 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AttackPlayer.cs" t="Include" />
         <e p="CameraRotateAround.cs" t="Include" />
         <e p="DoorController.cs" t="Include" />
         <e p="EnemyCollisionDetection.cs" t="Include" />
         <e p="GameEvents.cs" t="Include" />
+        <e p="HealthBar.cs" t="Include" />
         <e p="Invector-3rdPersonController_LITE" t="Include">
           <e p="3D Models" t="Include">
             <e p="Others" t="Include">
@@ -68,6 +70,7 @@
         <e p="PlayerAnimationHandler.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerDetection.cs" t="Include" />
+        <e p="PlayerHealth.cs" t="Include" />
         <e p="PlayerInventory.cs" t="Include" />
         <e p="PlayerMoveController.cs" t="Include" />
         <e p="Plugins" t="Include">
@@ -91,6 +94,11 @@
           <e p="RandMovement.cs" t="Include" />
           <e p="ScanField.cs" t="Include" />
           <e p="SimpleEnemy.cs" t="Include" />
+        </e>
+        <e p="spritefont_and_other" t="Include">
+          <e p="document_and_picturelist" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
         </e>
         <e p="ThirdPersonCharacter.cs" t="Include" />
         <e p="TriggerEvent.cs" t="Include" />

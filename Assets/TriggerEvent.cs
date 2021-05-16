@@ -13,5 +13,17 @@ public class TriggerEvent : MonoBehaviour
       {
          GameEvents.gameEvents.DoorTriggerEnter();
       }
+      else
+      { 
+         //..TODO add ui logic to door open
+      }
+   }
+
+   private void OnTriggerExit(Collider other)
+   {
+      if (allKetCollected?.Invoke(PlayerInventory.singleton.CurrentKeyCount) ?? false)
+      {
+         GameEvents.gameEvents.DoorTriggerExit();
+      }
    }
 }

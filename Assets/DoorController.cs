@@ -12,16 +12,24 @@ public class DoorController : MonoBehaviour
     private void OnEnable()
     {
         GameEvents.gameEvents.OnDoorTriggerEnter += OnDoorOpen;
+        GameEvents.gameEvents.OnDoorTriggerExit += OnDoorClose;
     }
 
     private void OnDisable()
     {
         GameEvents.gameEvents.OnDoorTriggerEnter -= OnDoorOpen;
+        GameEvents.gameEvents.OnDoorTriggerExit -= OnDoorClose;
     }
 
     private void OnDoorOpen()
     {
         rightDoor.transform.DOMove(rightDoor.transform.position + Vector3.left * 1, 1f);
         leftDoor.transform.DOMove(leftDoor.transform.position + Vector3.right * 1, 1f);
+    }
+    
+    private void OnDoorClose()
+    {
+        rightDoor.transform.DOMove(rightDoor.transform.position + Vector3.right * 1, 1f);
+        leftDoor.transform.DOMove(leftDoor.transform.position + Vector3.left * 1, 1f);
     }
 }

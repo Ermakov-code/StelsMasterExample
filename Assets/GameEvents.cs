@@ -10,6 +10,7 @@ public class GameEvents : MonoBehaviour
    public static GameEvents gameEvents = null;
 
    public event Action OnDoorTriggerEnter;
+   public event Action OnDoorTriggerExit; 
 
    private void OnEnable()
    {
@@ -44,5 +45,10 @@ public class GameEvents : MonoBehaviour
    {
       OnDoorTriggerEnter?.Invoke();
    }
-   
+
+   public void DoorTriggerExit()
+   {
+      OnDoorTriggerExit?.Invoke();
+   }
+
 }
