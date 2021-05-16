@@ -21,7 +21,7 @@ public class DoorController : MonoBehaviour
 
     private void OnDoorOpen()
     {
-        rightDoor.transform.DOMove(rightDoor.transform.position + Vector3.left * 2, 1f);
-        leftDoor.transform.DOMove(leftDoor.transform.position + Vector3.right * 2, 1f);
+        rightDoor.transform.DOMove(rightDoor.transform.position + Vector3.left * 1, 1f);
+        leftDoor.transform.DOMove(leftDoor.transform.position + Vector3.right * 1, 1f);
     }
 }

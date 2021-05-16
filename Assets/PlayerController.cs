@@ -11,11 +11,13 @@ public class PlayerController : MonoBehaviour {
     private NavMeshAgent agent;
     private ThirdPersonCharacter character;
     private float timer;
+    private PlayerAnimationHandler _animationHandler;
     [SerializeField] private float timeToNextPath;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        _animationHandler = GetComponent<PlayerAnimationHandler>();
     }
     
     void FixedUpdate ()
@@ -23,7 +25,7 @@ public class PlayerController : MonoBehaviour {
         
         if (!agent.hasPath)
         {
-            PlayerAnimationHandler.AnimationHandlerSingleton.Move(false);
+            _animationHandler.Move(false);
             timer += Time.deltaTime;
             if (timer >= timeToNextPath)
             {
@@ -35,7 +37,11 @@ public class PlayerController : MonoBehaviour {
         {
             if (agent.remainingDistance > agent.stoppingDistance)
             {
-                PlayerAnimationHandler.AnimationHandlerSingleton.Move(true);
+                _animationHandler.Move(true);
+            }
+            else
+            {
+                _animationHandler.Move(false);
             }
         }
     }

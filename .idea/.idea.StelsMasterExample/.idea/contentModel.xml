@@ -64,6 +64,7 @@
           </e>
         </e>
         <e p="KeyOnScreen.cs" t="Include" />
+        <e p="ParticleLogicForKeys.cs" t="Include" />
         <e p="PlayerAnimationHandler.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerDetection.cs" t="Include" />

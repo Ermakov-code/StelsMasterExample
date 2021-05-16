@@ -27,7 +27,7 @@ public class KeyOnScreen : MonoBehaviour
 
     private void AddKeyToScreen()
     {
-        keyCountText.text = "Keys: " + ++keyCount;
+        keyCountText.text = "Keys: " + ++keyCount + " / " + GameEvents.gameEvents.KeyToCollect();
     }
     
     

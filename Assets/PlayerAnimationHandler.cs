@@ -6,16 +6,7 @@ using UnityEngine;
 public class PlayerAnimationHandler : MonoBehaviour
 {
     
-    public static PlayerAnimationHandler AnimationHandlerSingleton = null;
-
     private Animator playerAnimation;
-    private void Awake()
-    {
-        if (AnimationHandlerSingleton == null)
-        {
-            AnimationHandlerSingleton = this;
-        }
-    }
 
     private void Start()
     {

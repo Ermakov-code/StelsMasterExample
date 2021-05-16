@@ -38,8 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00006506177, g: 0.00006686971, b: 0.000066836415,
-    a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1029,6 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 535229750}
   - component: {fileID: 535229749}
+  - component: {fileID: 535229751}
   m_Layer: 0
   m_Name: GameEventController
   m_TagString: Untagged
@@ -1048,6 +1048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9233c43940c69ff4db4bfa6e6828f0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keysToPass: 2
 --- !u!4 &535229750
 Transform:
   m_ObjectHideFlags: 0
@@ -1062,6 +1063,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535229751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535229748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8150ac7d76706946a04bac47f6b6c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleSystemForKeys: {fileID: 3510358301465394645, guid: 6743227c5488af340bc7bd89d77d242b,
+    type: 3}
 --- !u!1 &580626223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1147,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Keys: 0'
+  m_Text: 'Keys: 0 / 2'
 --- !u!222 &580626226
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2894,7 +2909,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34436
+  m_Name: pb_Mesh26468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

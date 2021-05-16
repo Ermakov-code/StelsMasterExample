@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class TriggerEvent : MonoBehaviour
 {
+   public static Predicate<int> allKetCollected;
+   
    private void OnTriggerEnter(Collider other)
    {
-      GameEvents.gameEvents.DoorTriggerEnter();
+      if (allKetCollected?.Invoke(PlayerInventory.singleton.CurrentKeyCount) ?? false)
+      {
+         GameEvents.gameEvents.DoorTriggerEnter();
+      }
    }
 }
